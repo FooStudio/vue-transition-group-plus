@@ -36,6 +36,10 @@ module.exports = {
 };
 
 if (process.env.NODE_ENV === 'production') {
+    module.exports.output = {
+        path: path.resolve(__dirname, 'docs'),
+        filename: "main.js",
+    };
     module.exports.devtool = '#source-map';
     module.exports.plugins = [
         new HtmlWebpackPlugin({
