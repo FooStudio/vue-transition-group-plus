@@ -1,0 +1,32 @@
+{
+  "name": "vue-transition-group-plus",
+  "version": "0.1.0",
+  "description": "A Vue transition group plus, transition modes for components with different transitions",
+  "main": "src/index.js",
+  "repository": "https://mendieta@github.com/FooStudio/vue-transition-group-plus.git",
+  "author": "Foo (Studio) <developer@foostudio.mx>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot",
+    "build": "export NODE_ENV=production && webpack --progress --hide-modules"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-stage-2": "^6.0.0",
+    "babel-register": "^6.0.0",
+    "css-loader": "^0.28.0",
+    "gsap": "^1.19.1",
+    "html-webpack-plugin": "^2.28.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue": "^2.3.0",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^11.3.4",
+    "vue-template-compiler": "^2.2.6",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
