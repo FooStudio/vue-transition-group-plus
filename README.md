@@ -2,6 +2,7 @@
 
 A Vue plugin and components that allows interruptible transitions and specifying transition order.
 
+[Demo](https://foostudio.github.io/vue-transition-group-plus/index.html)
 
 ### Installation
 
@@ -12,6 +13,7 @@ A Vue plugin and components that allows interruptible transitions and specifying
 ```
     yarn add vue-transition-group-plus
 ```
+
 
 ### Why?
 
